@@ -1,7 +1,7 @@
-alg = require('./alg') ;
-kpuz = require('./kpuzzle') ;
-puzg = require('./puzzle-geometry') ;
-twisty = require('./twisty') ;
+alg = require('cubing/alg') ;
+kpuz = require('cubing/kpuzzle') ;
+puzg = require('cubing/puzzle-geometry') ;
+twisty = require('cubing/twisty') ;
 fs = require('fs') ;
 
 puzname = process.argv[2] ;

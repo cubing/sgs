@@ -1,0 +1,36 @@
+SetOrder EDGE_p0 1
+SetOrder EDGE_p1 3
+SetOrder EDGE2_p0 14
+SetOrder EDGE2_p1 7
+SetOrder CENTER 13 9 10 8
+SetOrder CORNER 22 18 11 6
+SetOrder EDGE3_p0 21
+SetOrder EDGE3_p1 15
+SetOrder CENTER2 2 4 20 19
+SetOrder CENTER3 12 5 16 17
+Alg FR
+Alg FD
+Alg FD DL
+Alg FD DL LR
+Alg DL
+Alg DL LR DL
+Alg DL LR DL LR
+Alg DR
+Alg DR LR
+Alg DR LR FL
+Alg FR FL FR
+Alg DR DL DR DL
+Alg DR FR DR FR
+Alg FD DR FD
+Alg FR LR FL LR FR
+Alg FD DR FR DR FR FD
+Alg FD FR DR FR DR FD
+Alg DL FL DL
+Alg DL FL DL FL
+Alg FL
+Alg FL LR FL
+Alg FL LR FL LR
+Alg DL FL DL LR DL FL DL
+Alg FL DL LR DL FL DL LR DL
+Alg LR
+Alg FL FR DL DR FD FL FR DL DR

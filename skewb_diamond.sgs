@@ -1,0 +1,46 @@
+SetOrder C4RNER 14 3 10 5 1 9
+SetOrder CENTER 13 12 11 4
+SetOrder CENTER2 2 8 7 6
+Alg B
+Alg B'
+Alg D
+Alg D'
+Alg N
+Alg N'
+Alg M
+Alg M'
+Alg B U
+Alg B N
+Alg B R'
+Alg F
+Alg F'
+Alg F U
+Alg R
+Alg R'
+Alg R U
+Alg R U'
+Alg R L
+Alg R L'
+Alg R' U
+Alg F L' F'
+Alg R U' R
+Alg L
+Alg L'
+Alg F R F'
+Alg L U L'
+Alg L U' L'
+Alg L' U L
+Alg L' U' L
+Alg F R' F' L'
+Alg L U' L' U'
+Alg F R' F' U L'
+Alg U
+Alg U'
+Alg F D' F N U' M
+Alg F' D F' M' U N'
+Alg L F' D F L' B
+Alg L' M D' M' L R'
+Alg F L M D' M' F' L
+Alg F D M F' N' B' R'
+Alg F D F L' F M L M'
+Alg F M' D' M' L M' F' L'

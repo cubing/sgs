@@ -1,0 +1,11 @@
+SetOrder CORNER 4 8 1 7
+SetOrder CENTER 3 6 2 5
+Alg FD
+Alg FL
+Alg DL
+Alg LR
+Alg LR DR
+Alg LR FR
+Alg FR
+Alg FR DR
+Alg DR

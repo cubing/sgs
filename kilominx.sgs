@@ -1,0 +1,606 @@
+SetOrder CORNER 12 1 10 2 3 15 11 5 4 14 6 9 7 13 20 19 8 18 17 16
+Alg U
+Alg U2
+Alg U2'
+Alg U'
+Alg F
+Alg F2
+Alg F2'
+Alg F'
+Alg R
+Alg R2
+Alg R2'
+Alg R'
+Alg U F
+Alg U F2
+Alg U F2'
+Alg U F'
+Alg U L
+Alg U L2
+Alg U L2'
+Alg U L'
+Alg U2 L
+Alg U2 L2'
+Alg U2 L'
+Alg U2 BL
+Alg U2 BL2
+Alg U2 BL2'
+Alg U2 BL'
+Alg U2' BL
+Alg U2' BL2'
+Alg U2' BL'
+Alg U2' BR
+Alg U2' BR2
+Alg U2' BR'
+Alg U' BR
+Alg U' BR2'
+Alg U' BR'
+Alg U' R
+Alg U' R2
+Alg U' R'
+Alg F C2
+Alg F C2'
+Alg F C'
+Alg F R'
+Alg F2 C2'
+Alg F2 C'
+Alg F2 A
+Alg F2 A2
+Alg F2 A2'
+Alg F2' A2'
+Alg R BR2'
+Alg R2 E2
+Alg R2 E2'
+Alg R2' E2'
+Alg U F' A2'
+Alg U L2 I2
+Alg U L2 I2'
+Alg U L2' I2'
+Alg U2 L' I2'
+Alg U2' BL' BF2'
+Alg C
+Alg C2
+Alg C2'
+Alg C'
+Alg C E
+Alg C E2
+Alg C E2'
+Alg C E'
+Alg C2 D
+Alg C2 D2
+Alg C2 D2'
+Alg C2 D'
+Alg C2 E
+Alg C2 E2
+Alg C2 E2'
+Alg C2 E'
+Alg C2' D
+Alg C2' D2'
+Alg C2' D'
+Alg C2' A
+Alg C2' A2
+Alg C2' A2'
+Alg C2' A'
+Alg C' A
+Alg C' A2'
+Alg C' A'
+Alg U R U'
+Alg U R2 U'
+Alg U R' U'
+Alg U2 F U2'
+Alg U2 F2' U2'
+Alg U2 F' U2'
+Alg U2 R U2'
+Alg U2 R2 U2'
+Alg U2' F' U2
+Alg U2' R U2
+Alg U2' R2 U2
+Alg U' F' U
+Alg F A2' F'
+Alg F2 L2 F2'
+Alg F2' L2' U2'
+Alg C E BR2'
+Alg C E BR'
+Alg C E2 BF
+Alg C E2 BF2
+Alg C E2 BF2'
+Alg C E2 BR2
+Alg C E2 BR'
+Alg C E2' BF2'
+Alg C E' C2'
+Alg C2 D E2'
+Alg C2 D2 I
+Alg C2 D' A2'
+Alg C2 E C'
+Alg C2' D' I2'
+Alg C2' A2' L'
+Alg L
+Alg L2
+Alg L2'
+Alg L'
+Alg L A
+Alg L A2
+Alg L A2'
+Alg L A'
+Alg L2 A
+Alg L2 A2
+Alg L2 A2'
+Alg L2 A'
+Alg L2 I
+Alg L2 I2
+Alg L2 I2'
+Alg L2 I'
+Alg L2' BL
+Alg L2' BL2
+Alg L2' BL2'
+Alg L2' BL'
+Alg L2' I
+Alg L2' I2'
+Alg L2' I'
+Alg L' BL
+Alg L' BL2'
+Alg L' BL'
+Alg U BL2' U'
+Alg U2 BR2 U2'
+Alg U2 BR2' U2'
+Alg F U' F'
+Alg F2 R2 F2'
+Alg F2 R2' F2'
+Alg F2 R' F2'
+Alg F2' C2 F2
+Alg F2' C2' F2
+Alg F' A2 F
+Alg L A2 D
+Alg L A2 D2
+Alg L A2 D2'
+Alg L A2' D2
+Alg L A2' D2'
+Alg L A' L2'
+Alg L A' L'
+Alg L2 A L2'
+Alg L2 A L'
+Alg L2 A' D2'
+Alg L2 I A2'
+Alg L2 I2' BF2'
+Alg L2 I' BL2'
+Alg L2' BL2 BR
+Alg L2' BL2' BR'
+Alg L' BL' BR2'
+Alg F2 C F2' U'
+Alg A
+Alg A2
+Alg A2'
+Alg A'
+Alg A2 D
+Alg A2 D2
+Alg A2 D2'
+Alg A2 D'
+Alg A2' D
+Alg A2' D2
+Alg A2' D2'
+Alg A2' D'
+Alg A2' I
+Alg A2' I2
+Alg A2' I2'
+Alg A2' I'
+Alg A' I
+Alg A' I2'
+Alg A' I'
+Alg U2' L U2
+Alg U2' L2' U2
+Alg U2' L' U2
+Alg U' L2' U
+Alg U' L' U
+Alg F2 U2 F2'
+Alg F2' R2 F2
+Alg F2' R2' F2
+Alg F2' R' F2
+Alg F' C2 F
+Alg L I2' L'
+Alg L2 BL2 L2'
+Alg C A C'
+Alg C A2 C'
+Alg C2 A2 C2'
+Alg A2 D E2
+Alg A2 D E2'
+Alg A2 D E'
+Alg A2 D2 BF
+Alg A2 D2 E2'
+Alg A2 D2 E'
+Alg A2 D2' BF2'
+Alg A2 D' A2
+Alg A2 D' A2'
+Alg A2 D' I2'
+Alg A2' D A2'
+Alg A2' D A'
+Alg A2' D' BF2'
+Alg A2' I2' BL'
+Alg A' I' BL2'
+Alg U' L2 BL2' U
+Alg L2' A L2
+Alg L2' A2 L2
+Alg L2' A2' L2
+Alg L2' A' L2
+Alg L' A2' L
+Alg L' A' L
+Alg C2' E2 C2
+Alg C2' E2' C2
+Alg C2' E' C2
+Alg C' D2 C
+Alg C' D2' C
+Alg C' D' C
+Alg A D A'
+Alg A D2' A'
+Alg A D' A'
+Alg A2 I2 A2'
+Alg R C R'
+Alg R C2 R'
+Alg R C2' R'
+Alg R2 C2 R2'
+Alg F2 U F2' A'
+Alg F2' U' F2 C
+Alg F L F' A'
+Alg F' R' F C
+Alg L2' A2 L2 D
+Alg L2' A2 L2 D2'
+Alg L2' A2 L2 D'
+Alg L2' A2 L2 I'
+Alg L2' A2' L2 BL2
+Alg L2' A2' L2 BL2'
+Alg L2' A2' L2 BL'
+Alg L' A2 I' L
+Alg L' A2' L BL2
+Alg L' A2' L BL2'
+Alg L' A2' L BL'
+Alg L' A2' L I'
+Alg C R2' BR' R2
+Alg C' D E2' C
+Alg C2' E2 C2 E'
+Alg C2' E2' BR2 C2
+Alg C2' E2' BR' C2
+Alg C' D2 E2' C
+Alg C' D2 C E2
+Alg C' D' I' C
+Alg U R2 C2 R2' U'
+Alg L2' A D' A2' L2
+Alg L2' A2 D A' L2
+Alg D
+Alg D2
+Alg D2'
+Alg D'
+Alg D E
+Alg D E2
+Alg D E2'
+Alg D E'
+Alg D2 BF
+Alg D2 BF2
+Alg D2 BF2'
+Alg D2 BF'
+Alg D2 E
+Alg D2 E2
+Alg D2 E2'
+Alg D2 E'
+Alg D2' BF
+Alg D2' BF2'
+Alg D2' BF'
+Alg D2' I
+Alg D2' I2
+Alg D2' I2'
+Alg D2' I'
+Alg D' I
+Alg D' I2'
+Alg D' I'
+Alg D E2 BR
+Alg D E2 BR2
+Alg D E2 BR2'
+Alg D E2' BR2
+Alg D E2' BR2'
+Alg D E' D2'
+Alg D E' D'
+Alg D2 BF E2'
+Alg D2 BF E'
+Alg D2 BF2 BL
+Alg D2 BF2 BL2
+Alg D2 BF2 BL2'
+Alg D2 BF2' BL2'
+Alg D2 BF' I2'
+Alg D2 BF' I'
+Alg D2 E D'
+Alg D2 E' BR2
+Alg D2' BF' BL2'
+Alg I
+Alg I2
+Alg I2'
+Alg I'
+Alg I2 BF
+Alg I2 BF2
+Alg I2 BF2'
+Alg I2 BF'
+Alg I2' BF
+Alg I2' BF2
+Alg I2' BF2'
+Alg I2' BF'
+Alg I2' BL
+Alg I2' BL2
+Alg I2' BL2'
+Alg I2' BL'
+Alg I' BL
+Alg I' BL2'
+Alg I' BL'
+Alg D I D'
+Alg D I2 D'
+Alg D2 I2 D2'
+Alg L BL2' L'
+Alg A' D2 A
+Alg I2 BF E
+Alg I2 BF E2
+Alg I2 BF E2'
+Alg I2 BF E'
+Alg I2 BF2 E2'
+Alg I2 BF2 E'
+Alg I2 BF2 BR
+Alg I2 BF2 BR2
+Alg I2 BF2' BR2'
+Alg I2 BF' BL2'
+Alg I2 BF' BL'
+Alg I2 BF' I2
+Alg I2 BF' I2'
+Alg I2' BF I2'
+Alg I2' BF I'
+Alg I2' BF2' E2'
+Alg I2' BF' BR2'
+Alg D2' E D2
+Alg D2' E2 D2
+Alg D2' E2' D2
+Alg D2' E' D2
+Alg D' BF2 D
+Alg D' BF2' D
+Alg D' BF' D
+Alg L' I2 L
+Alg L' I2' L
+Alg L' I' L
+Alg C D C'
+Alg C D2 C'
+Alg C D2' C'
+Alg C D' C'
+Alg I BF I'
+Alg I BF2' I'
+Alg I2 BL2 I2'
+Alg I2 BL2' I2'
+Alg D2' BF2 E2 D'
+Alg D' BF D BF'
+Alg D' BF E2' D
+Alg D' BF E' D
+Alg D2' E2 D2 E'
+Alg D' BF2 D BF'
+Alg D' BF2 D E2
+Alg D' BF2 D E2'
+Alg D' BF2 D E'
+Alg D' BF2 E D
+Alg D2' E2' BR D2
+Alg D2' E2' BR2 D2
+Alg D2' E' BR2 D2
+Alg D2' E' BR2' D2
+Alg D' BF2' BL2' D
+Alg D' BF' BL2' D
+Alg D' BF' BL' D
+Alg I BF2' I' BR2'
+Alg D2' E' D BF2' D
+Alg D' BF2 D' E D2
+Alg E
+Alg E2
+Alg E2'
+Alg E'
+Alg E2 BR
+Alg E2 BR2
+Alg E2 BR2'
+Alg E2 BR'
+Alg E2' BF
+Alg E2' BF2
+Alg E2' BF2'
+Alg E2' BF'
+Alg E2' BR
+Alg E2' BR2
+Alg E2' BR2'
+Alg E2' BR'
+Alg E' BF
+Alg E' BF2'
+Alg E' BF'
+Alg D BF2' D'
+Alg E2 BR2 BL
+Alg E2 BR2 BL2
+Alg E2 BR2' BL2
+Alg E2 BR2' BL2'
+Alg E2 BR' BF2'
+Alg E2 BR' BF'
+Alg E2 BR' E2
+Alg E2 BR' E2'
+Alg E2 BR' E'
+Alg E2' BF BR2'
+Alg E2' BF BR'
+Alg E2' BR E2'
+Alg E2' BR E'
+Alg E2' BR' BL2
+Alg E2' BR' BL2'
+Alg D' E D
+Alg D' E2 D
+Alg D' E2' D
+Alg D' E' D
+Alg E BR E'
+Alg E BR2 E'
+Alg E BR2' E'
+Alg E BR' E'
+Alg E2 BF E2'
+Alg E2 BF2 E2'
+Alg E2 BF2' E2'
+Alg R' BR2 R
+Alg R' BR' R
+Alg D' E BR' D
+Alg D' E2 D BF'
+Alg D' E2 BR D
+Alg D' E2 BR2 D
+Alg D' E2 BR2' D
+Alg D' E2 BR' D
+Alg D' E2' D BF'
+Alg E2 BF E2' BR2'
+Alg E2 BF BL2 E2'
+Alg E2 BF BL2' E2'
+Alg E2 BF2 BL2' E2'
+Alg E2 BF2 BL' E2'
+Alg E BR2' BF E'
+Alg E BR2' BF2 E'
+Alg E BR2' E' BF2'
+Alg R' BR2 R BL
+Alg R' BR2 R BL2
+Alg D' E2 BR E' D
+Alg D' E BR' E2' D
+Alg BR
+Alg BR2
+Alg BR2'
+Alg BR'
+Alg BR2 BL
+Alg BR2 BL2
+Alg BR2 BL2'
+Alg BR2 BL'
+Alg BR2' BF
+Alg BR2' BF2
+Alg BR2' BF2'
+Alg BR2' BF'
+Alg BR2' BL
+Alg BR2' BL2
+Alg BR2' BL2'
+Alg BR2' BL'
+Alg BR' BF
+Alg BR' BF2'
+Alg BR' BF'
+Alg U BR U'
+Alg U BR2 U'
+Alg E BF2' E'
+Alg BR2 BL' BF2'
+Alg BR2 BL' BF'
+Alg BR2 BL' BR2
+Alg BR2 BL' BR2'
+Alg BR2' BF BL'
+Alg BR2' BL BR2'
+Alg BR2' BL BR'
+Alg U' BL U
+Alg U' BL2 U
+Alg U' BL2' U
+Alg U' BL' U
+Alg E' BR2 E
+Alg E' BR2' E
+Alg E' BR' E
+Alg BR BL BR'
+Alg BR BL2 BR'
+Alg BR BL2' BR'
+Alg BR BL' BR'
+Alg BR2 BF2 BR2'
+Alg BR2 BF2' BR2'
+Alg U' BL U BL'
+Alg U' BL2 U BL'
+Alg U' BL2' BF2' U
+Alg U' BL' BF2 U
+Alg U' BL' BF2' U
+Alg U' BL' BF' U
+Alg E' BR2 BL E
+Alg E' BR2 BL2 E
+Alg E' BR2 BL2' E
+Alg E' BR2 BL' E
+Alg E' BR2' E BF'
+Alg U' BL' BF BL2 U
+Alg U' BL2' BF' BL U
+Alg BL
+Alg BL2
+Alg BL2'
+Alg BL'
+Alg BL BF
+Alg BL BF2
+Alg BL BF2'
+Alg BL BF'
+Alg BL2 BF
+Alg BL2 BF2
+Alg BL2 BF2'
+Alg BL2 BF'
+Alg BL BF' BL
+Alg BL BF' BL2
+Alg BL BF' BL2'
+Alg BL BF' BL'
+Alg BL2 BF BL
+Alg BL2 BF BL2
+Alg BL2 BF BL2'
+Alg BL2 BF BL'
+Alg BR' BL2 BR
+Alg I' BF2 I
+Alg BL2 BF BL BF2
+Alg BL2' BF BL2
+Alg BL2' BF2 BL2
+Alg BL2' BF2' BL2
+Alg BL2' BF' BL2
+Alg I BL I'
+Alg I BL2 I'
+Alg I BL2' I'
+Alg I BL' I'
+Alg BL I' BF' I
+Alg BL2' BF2 BL2 BF'
+Alg I BL I' BF2
+Alg I BL I' BF2'
+Alg U BL' BF BL U'
+Alg U BR BF BR' U'
+Alg U BR BF2 BR' U'
+Alg U BR BF2' BR' U'
+Alg BL BF2 BL BF2' BL'
+Alg BL2 BF' BL2' BF BL2'
+Alg BL I' BF' I2 BL2 I'
+Alg BL2 BR BF BR' BF2' BL2
+Alg BL' BF BL
+Alg BL' BF2 BL
+Alg BL' BF2' BL
+Alg BL' BF' BL
+Alg BR BF BR'
+Alg BR BF2 BR'
+Alg BR BF2' BR'
+Alg BR BF' BR'
+Alg BL' BF BL BF'
+Alg BL' BF2 BL BF'
+Alg BL2 BF2 BL BF2' BL2'
+Alg BL2 BF2 BL2' BF2' BL2'
+Alg BL2 BF2' BL BF2 BL2'
+Alg BL2' I BL I' BL
+Alg BL' I' BF2 I BL
+Alg BL BR' BL' BR2 BF BR'
+Alg BL2' I BL I' BF2' BL
+Alg BF
+Alg BF2
+Alg BF2'
+Alg BF'
+Alg D I BF I' BF' D'
+Alg D I BF2 I' BF2' D'
+Alg D' BF2' E' BF2 E D
+Alg E BF D BF' D' E'
+Alg E BF2 D BF2' D' E'
+Alg E' BR' BF2' BR BF2 E
+Alg D BF' D' BF2' E' BF2 E
+Alg D I BF I' BF' D' BF
+Alg D I BF2 I' BF2' D' BF
+Alg D I BF2 I' BF2' D' BF2
+Alg BR' BF' BL' BF BL BR
+Alg BR' BL' BF' BL BF BR
+Alg D BF2 D2 BF2' D2 BF2 D2
+Alg D BF2 D' BF D BF2 D'
+Alg D BF2' D2 BF2 D2 BF2' D2
+Alg D BF I BF' I' D' BF
+Alg D2' BF2 D BF D' BF2 D2
+Alg D2' BF2 D2' BF2' D2' BF2 D'
+Alg D' E' BF2' E BF2 D BF
+Alg E BF' E' BF2' BR' BF2 BR
+Alg BR' BF2' BR BF2 E BF E'
+Alg U BL U' BR' U BL' U' BR
+Alg U BL2 U BL2' U2' BR2' U BR2
+Alg U2' BR' U2 BL U2' BR U2 BL'
+Alg U' BR2' U' BR2 U2 BL2 U' BL2'
+Alg D2 BF2 D2' I2' BF2' D2' BF2 I2
+Alg BF2 I2 BF2' I2 BF2 I2 BF2' I
+Alg BF2 I' BF' I2 BL' I' BL2 BF' BL'
+Alg BF2' E BF E2' BR E BR2' BF BR
+Alg U2 BR' U' BL BF' BR2 BF BR U' BL2
+Alg U2' BL2' U BR' BF' BR2' BF BL' U BR

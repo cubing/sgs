@@ -1,0 +1,65 @@
+SetOrder CORNER 13 8 7 3
+SetOrder CORNER2 6 12 14 2
+SetOrder EDGE 5 11 4 1 10 9
+Alg L
+Alg L'
+Alg D
+Alg D'
+Alg L R
+Alg L R'
+Alg L' F
+Alg L' F'
+Alg D F
+Alg D' R'
+Alg L R D
+Alg FDL
+Alg FDL'
+Alg F
+Alg F'
+Alg FDL F
+Alg FDL F'
+Alg FDL' F
+Alg FDL' F'
+Alg F R
+Alg F' R'
+Alg FDL F' R'
+Alg FDL F R' F
+Alg FDL' F' R F'
+Alg L F L'
+Alg L F' L'
+Alg L' D L
+Alg L' D' L
+Alg L R' F D'
+Alg L F L' R'
+Alg L F' L' R'
+Alg L R' D' R L'
+Alg L F L D L
+Alg D L D'
+Alg D L' D'
+Alg D' F D
+Alg D' F' D
+Alg D L D' R'
+Alg D L' D' R'
+Alg L R' D F D'
+Alg R
+Alg R'
+Alg FLR
+Alg FLR'
+Alg R DRL
+Alg R DRL'
+Alg R' FRD
+Alg R' FRD'
+Alg L D F L D' R' L
+Alg L' R D L' F' D' L'
+Alg F L FRD' D F L' R' F
+Alg F' R L F' DRL D' L' F'
+Alg L R L D L' F' L' D'
+Alg L R L' D F L' F' D'
+Alg L D F D' L' F R' F'
+Alg L D' R' L F R' D' F
+Alg L F R L D F L R D
+Alg L R D F L D R F D
+Alg DRL
+Alg DRL'
+Alg FRD
+Alg FRD'

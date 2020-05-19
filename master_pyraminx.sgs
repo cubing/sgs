@@ -1,0 +1,139 @@
+SetOrder CORNER 15 14 26 5
+SetOrder CORNER2 12 21 30 4
+SetOrder EDGE 7 19 10 2 25 13
+SetOrder EDGE2 8 17 29 11 24 3 18 1 28 6 27 23
+SetOrder CENTER 22 9 20 16
+Alg L
+Alg L'
+Alg 2R
+Alg 2R'
+Alg 2DRL
+Alg 2DRL'
+Alg D
+Alg D'
+Alg L R'
+Alg L 2F'
+Alg L 2FLR
+Alg 2F
+Alg 2F'
+Alg 2F R
+Alg 2F R'
+Alg 2F 2D
+Alg 2F 2D'
+Alg 2F' 2L'
+Alg 2F' R'
+Alg 2DRL 2R 2DRL'
+Alg 2DRL 2R' 2DRL'
+Alg 2F R 2F
+Alg 2FDL
+Alg 2FDL'
+Alg 2FDL F
+Alg 2FDL F'
+Alg 2FDL 2D
+Alg 2FDL 2D'
+Alg 2FDL' 2L
+Alg 2FDL' F
+Alg 2FDL F R'
+Alg 2FDL F 2FLR'
+Alg FDL
+Alg FDL'
+Alg F
+Alg F'
+Alg FDL F
+Alg FDL F'
+Alg FDL' F
+Alg FDL' F'
+Alg F R
+Alg F' R'
+Alg FDL F' R'
+Alg 2F 2FDL 2F'
+Alg 2F 2FDL' 2F'
+Alg 2D
+Alg 2D'
+Alg 2D 2FRD
+Alg 2D 2FRD'
+Alg 2D R
+Alg 2D R'
+Alg 2D' R'
+Alg 2D R 2FLR'
+Alg 2D R' 2L'
+Alg 2FDL' 2D 2FDL
+Alg 2FDL' 2D' 2FDL
+Alg 2R' 2L 2R
+Alg 2R' 2L' 2R
+Alg F 2D F'
+Alg F 2D' F'
+Alg F' 2L F
+Alg 2D 2L 2D'
+Alg 2FDL' 2D R 2D 2FDL
+Alg 2FLR
+Alg 2FLR'
+Alg 2FLR R
+Alg 2FLR R'
+Alg 2FLR' 2L
+Alg 2FLR' R
+Alg 2FLR' R'
+Alg 2FLR R' 2FRD'
+Alg 2L
+Alg 2L'
+Alg 2F 2L 2F'
+Alg 2L R 2L'
+Alg 2L R' 2L'
+Alg 2L' R 2L
+Alg 2L' R' 2L
+Alg 2L R 2L' R
+Alg 2L R' 2L' R
+Alg 2L R' 2L R' 2L
+Alg 2L 2DRL' 2L' 2DRL
+Alg 2L' 2FLR 2L 2FLR'
+Alg 2DRL' 2L 2DRL 2L'
+Alg 2FLR 2L' 2FLR' 2L
+Alg 2L 2R' 2DRL' 2R 2L'
+Alg 2L 2DRL' 2L' 2DRL R
+Alg 2L' 2FLR 2L 2FLR' R'
+Alg R
+Alg R'
+Alg FLR
+Alg FLR'
+Alg R DRL
+Alg R DRL'
+Alg R' FRD
+Alg R' FRD'
+Alg 2L R 2D' 2L 2D R' 2L'
+Alg 2L R 2D' 2L' 2D R' 2L'
+Alg 2L 2F D' 2L' D 2L' 2F'
+Alg 2L 2D L 2R L' 2D' 2L'
+Alg 2L 2D L 2R' L' 2D' 2L'
+Alg 2R' 2DRL 2R
+Alg 2R' 2DRL' 2R
+Alg 2R 2FLR 2R'
+Alg 2R 2FLR' 2R'
+Alg 2L R' 2L R 2D' 2L' 2D
+Alg 2F 2D L' 2F' L 2F' 2D'
+Alg 2D' 2FRD 2D
+Alg 2D' 2FRD' 2D
+Alg 2L' 2DRL' 2L 2DRL
+Alg 2DRL 2D 2DRL' 2D'
+Alg 2DRL' 2L' 2DRL 2L
+Alg 2F 2D' 2FRD 2D 2F'
+Alg 2L 2FLR 2L' 2FLR'
+Alg F 2FRD' F' 2FLR
+Alg 2FLR 2L 2FLR' 2L'
+Alg 2F' 2FLR' 2F 2FLR 2FRD
+Alg 2F' 2FLR' 2F 2FLR 2FRD'
+Alg 2L' 2F' 2R' 2F' 2R' 2L' 2R' 2L' 2F'
+Alg DRL
+Alg DRL'
+Alg 2DRL' 2R 2FRD 2R' 2DRL
+Alg 2DRL 2D' 2FRD 2D 2DRL'
+Alg 2DRL 2D' 2FRD' 2D 2DRL'
+Alg F' 2L 2FLR' 2L' F
+Alg 2F 2FRD 2F'
+Alg 2F 2FRD' 2F'
+Alg 2F 2FRD 2F' 2FRD'
+Alg 2FRD
+Alg 2FRD'
+Alg 2R 2FRD 2R' 2FRD 2R 2FRD 2R'
+Alg 2R 2FRD' 2R' 2FRD' 2R 2FRD' 2R'
+Alg FRD
+Alg FRD'

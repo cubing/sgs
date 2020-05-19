@@ -1,0 +1,232 @@
+SetOrder EDGE 10 20 7 28 8 13 22 37 36 15 1 3
+SetOrder CENTER 18 25 9 41 23 21 24 39 30 17 19 2
+SetOrder C4RNER 16 26 5 34 42 33
+SetOrder CENTER2 27 35 38 32 6 12 11 29 40 31 4 14
+Alg BB
+Alg BB'
+Alg U
+Alg U'
+Alg BB BL
+Alg BB BL'
+Alg BB' BR
+Alg BB' BR'
+Alg U R'
+Alg U' L
+Alg BB BL' D
+Alg R
+Alg R'
+Alg R D
+Alg R D'
+Alg R BR
+Alg R BR'
+Alg R' F
+Alg R' L
+Alg R' L'
+Alg BB L BB'
+Alg U L' U'
+Alg BB U BB'
+Alg BB U' BB'
+Alg BB R BB'
+Alg BB R' BB'
+Alg BB' U' BB
+Alg BB' U BB L
+Alg BB' U BB L'
+Alg BB' U' BB BL'
+Alg BB U' BB' BR
+Alg BB' R' BB F
+Alg BR
+Alg BR'
+Alg BR BL
+Alg BR BL'
+Alg BR' F
+Alg BR' F'
+Alg BR' D
+Alg BB BR BB'
+Alg U F U'
+Alg BR BL L
+Alg BR' D BR'
+Alg BB' BL BB
+Alg BB' BL' BB
+Alg BR D' BR'
+Alg BB' BL BB D'
+Alg BB' BL BB BL
+Alg BB' BL BB BL'
+Alg BB' BL L BB
+Alg BB' BL' BB F'
+Alg BB' BL' BB L'
+Alg BB' BL' BB BL'
+Alg BB' BL' L BL' BB
+Alg R' BR R
+Alg R' BR' R
+Alg BR BL' D BR
+Alg R' BR D R
+Alg R' BR D' R
+Alg R' BR R BL
+Alg BB' D' BL D BB
+Alg BR BB D' BB' BR'
+Alg BR BL' D BR L'
+Alg BR BL' D BL BR
+Alg U BB U'
+Alg U BB' U'
+Alg U BR U'
+Alg U BR' U'
+Alg U BB U' L
+Alg U BB U' L'
+Alg U BB' U' BL'
+Alg U BR U' D'
+Alg U' BR' R U
+Alg U' R U
+Alg U' R' U
+Alg U' R F U
+Alg U' R F' U
+Alg U' R' U L'
+Alg BB U' BR U BB'
+Alg BB U' BR' U BB'
+Alg U BR' D BR U'
+Alg BB BL' L BL BB'
+Alg BB BL' L' BL BB'
+Alg U BB' D BB U'
+Alg U BB' D' BB U'
+Alg U R D R' U'
+Alg U R D' R' U'
+Alg R' F L F' R
+Alg R' F L' F' R
+Alg BB L' BB F' D BB
+Alg U BB' D' BB U' D
+Alg F
+Alg F'
+Alg F D
+Alg F D'
+Alg F' L
+Alg F' L'
+Alg F D' BL
+Alg F BL F'
+Alg F BL' F'
+Alg BR' BL BR
+Alg BR' BL' BR
+Alg F BR F' BR'
+Alg F BL F' BL'
+Alg F BL' F' L
+Alg F BL' L' F'
+Alg F BR' BL BR F'
+Alg F' BL F
+Alg F' BL' F
+Alg U BL U'
+Alg U BL' U'
+Alg F U' F' U
+Alg F' BL F D'
+Alg F' BL F BL'
+Alg F' BL D F
+Alg L
+Alg L'
+Alg L BL
+Alg L BL'
+Alg F' D F
+Alg L BL D
+Alg L' BL L
+Alg L' BL' L
+Alg L' BL D L
+Alg L' BL D' L
+Alg L' BL L BL'
+Alg L' BL D' L BL
+Alg L' BL D' L BL'
+Alg F L F'
+Alg F L' F'
+Alg F L F' D
+Alg F L F' D'
+Alg F L' F' BL'
+Alg L D L'
+Alg L D' L'
+Alg R' D R
+Alg R' D' R
+Alg L D L' D'
+Alg L D' L' BL
+Alg L R L' R'
+Alg R' D R BL
+Alg R' D BL' D R
+Alg L BL' D BL L'
+Alg L BL' D' BL L'
+Alg F D L D' L' F'
+Alg F L D L' D' F'
+Alg F L' BB' L BB F'
+Alg F' D' R' D R F
+Alg F D L D' L' F' BL'
+Alg F' R' BB' R' BB R' F
+Alg F BR L R L' R' BR' F'
+Alg U' L D L' U
+Alg U' L D' L' U
+Alg U' R' D R U
+Alg U' R' D' R U
+Alg U' L D L' U D'
+Alg U' L' R L R' U
+Alg U' R' D R U BL
+Alg BB U R' D R U' BB'
+Alg BB D BB'
+Alg BB D' BB'
+Alg L' D L
+Alg L' D' L
+Alg BB D BB' D'
+Alg BB' L BB L'
+Alg BB D BB' D' BL
+Alg D
+Alg D'
+Alg D' BL
+Alg D' BL'
+Alg D' BL' D BL D
+Alg D' BL' D' BL D
+Alg BB D R D' R' BB'
+Alg D' BL' D' BL D BL
+Alg D' BL' D' BL D BL'
+Alg L D BB D' BB' L'
+Alg D BL D'
+Alg D BL' D'
+Alg D BL D' BL'
+Alg BB' R' BB BL BB' R BB
+Alg BB' R' BB BL' BB' R BB
+Alg D BL' D' BL' D BL' D'
+Alg D' BL D' BL' D' BL D'
+Alg BB BL D' R D R' BL' BB'
+Alg BB D BR D' BR' BB' BL' D'
+Alg BB' L' F L BB L' F' L
+Alg D L U L' D' L U' L'
+Alg BB' L' F L BB L' F' L BL'
+Alg BB R' BB' BL BB R BB'
+Alg BB R' BB' BL' BB R BB'
+Alg L R L' BL' L R' L'
+Alg F BL' BB' BL F' BL' BB
+Alg F' R' F BL F' R F
+Alg F' R' F BL' F' R F
+Alg BR R BR' BL' BR R' BR'
+Alg F L' BL U BL' U' L F'
+Alg F' U' F D F' U F D'
+Alg F BL F' D F BL' F' BL D'
+Alg F D F U' F' U D' F'
+Alg F D F' BL F BL' D' F'
+Alg F U D BL' U' BL D' F'
+Alg F U' D F U F' D' F'
+Alg F' BR L F BR' F' L' F
+Alg U R BL' F BL F' R' U'
+Alg BL
+Alg BL'
+Alg F U BL U' BL' F'
+Alg F BL U BL' U' F'
+Alg U BR BL BR' BL' U'
+Alg BR BL F BL' F' BR'
+Alg F U' F' U BL' U BL U'
+Alg BB D' BB U BB' D BB U' BB
+Alg BB' U BB' D' BB U' BB' D BB'
+Alg F U' F' D F U F' D'
+Alg BB BR F' BR' BB' BR F BR'
+Alg D F U' F' D' F U F'
+Alg BR F' BR' BB BR F BR' BB'
+Alg F BL' F' BL F' BR F BR'
+Alg F' D BR F' R F R' BR' F D'
+Alg F' BR' BB' U' BB BR BB' U BB F
+Alg U F R' F BR F' BR' R F' U'
+Alg U F R' BR F BR' F' R F' U'
+Alg L' F' BL BB BL' F BL BB' BL' L
+Alg L' BL BB BL' F' BL BB' BL' F L
+Alg F' L' F' BR F' U F U' F BR' L F
+Alg U BB F U F' U BL' U' BL U' BB' U'
+Alg D' BR F' R' BR R BR' F D BR'
+Alg BR D' F' BR R' BR' R F BR' D

@@ -1,0 +1,232 @@
+SetOrder EDGE 10 20 7 28 8 13 22 37 36 15 1 3
+SetOrder CENTER 18 25 9 41 23 21 24 39 30 17 19 2
+SetOrder C4RNER 16 26 5 34 42 33
+SetOrder CENTER2 27 35 38 32 6 12 11 29 40 31 4 14
+Alg B
+Alg B'
+Alg U
+Alg U'
+Alg B M
+Alg B M'
+Alg B' N
+Alg B' N'
+Alg U R'
+Alg U' L
+Alg B M' D
+Alg R
+Alg R'
+Alg R D
+Alg R D'
+Alg R N
+Alg R N'
+Alg R' F
+Alg R' L
+Alg R' L'
+Alg B L B'
+Alg U L' U'
+Alg B U B'
+Alg B U' B'
+Alg B R B'
+Alg B R' B'
+Alg B' U' B
+Alg B' U B L
+Alg B' U B L'
+Alg B' U' B M'
+Alg B U' B' N
+Alg B' R' B F
+Alg N
+Alg N'
+Alg N M
+Alg N M'
+Alg N' F
+Alg N' F'
+Alg N' D
+Alg B N B'
+Alg U F U'
+Alg N M L
+Alg N' D N'
+Alg B' M B
+Alg B' M' B
+Alg N D' N'
+Alg B' M B D'
+Alg B' M B M
+Alg B' M B M'
+Alg B' M L B
+Alg B' M' B F'
+Alg B' M' B L'
+Alg B' M' B M'
+Alg B' M' L M' B
+Alg R' N R
+Alg R' N' R
+Alg N M' D N
+Alg R' N D R
+Alg R' N D' R
+Alg R' N R M
+Alg B' D' M D B
+Alg N B D' B' N'
+Alg N M' D N L'
+Alg N M' D M N
+Alg U B U'
+Alg U B' U'
+Alg U N U'
+Alg U N' U'
+Alg U B U' L
+Alg U B U' L'
+Alg U B' U' M'
+Alg U N U' D'
+Alg U' N' R U
+Alg U' R U
+Alg U' R' U
+Alg U' R F U
+Alg U' R F' U
+Alg U' R' U L'
+Alg B U' N U B'
+Alg B U' N' U B'
+Alg U N' D N U'
+Alg B M' L M B'
+Alg B M' L' M B'
+Alg U B' D B U'
+Alg U B' D' B U'
+Alg U R D R' U'
+Alg U R D' R' U'
+Alg R' F L F' R
+Alg R' F L' F' R
+Alg B L' B F' D B
+Alg U B' D' B U' D
+Alg F
+Alg F'
+Alg F D
+Alg F D'
+Alg F' L
+Alg F' L'
+Alg F D' M
+Alg F M F'
+Alg F M' F'
+Alg N' M N
+Alg N' M' N
+Alg F N F' N'
+Alg F M F' M'
+Alg F M' F' L
+Alg F M' L' F'
+Alg F N' M N F'
+Alg F' M F
+Alg F' M' F
+Alg U M U'
+Alg U M' U'
+Alg F U' F' U
+Alg F' M F D'
+Alg F' M F M'
+Alg F' M D F
+Alg L
+Alg L'
+Alg L M
+Alg L M'
+Alg F' D F
+Alg L M D
+Alg L' M L
+Alg L' M' L
+Alg L' M D L
+Alg L' M D' L
+Alg L' M L M'
+Alg L' M D' L M
+Alg L' M D' L M'
+Alg F L F'
+Alg F L' F'
+Alg F L F' D
+Alg F L F' D'
+Alg F L' F' M'
+Alg L D L'
+Alg L D' L'
+Alg R' D R
+Alg R' D' R
+Alg L D L' D'
+Alg L D' L' M
+Alg L R L' R'
+Alg R' D R M
+Alg R' D M' D R
+Alg L M' D M L'
+Alg L M' D' M L'
+Alg F D L D' L' F'
+Alg F L D L' D' F'
+Alg F L' B' L B F'
+Alg F' D' R' D R F
+Alg F D L D' L' F' M'
+Alg F' R' B' R' B R' F
+Alg F N L R L' R' N' F'
+Alg U' L D L' U
+Alg U' L D' L' U
+Alg U' R' D R U
+Alg U' R' D' R U
+Alg U' L D L' U D'
+Alg U' L' R L R' U
+Alg U' R' D R U M
+Alg B U R' D R U' B'
+Alg B D B'
+Alg B D' B'
+Alg L' D L
+Alg L' D' L
+Alg B D B' D'
+Alg B' L B L'
+Alg B D B' D' M
+Alg D
+Alg D'
+Alg D' M
+Alg D' M'
+Alg D' M' D M D
+Alg D' M' D' M D
+Alg B D R D' R' B'
+Alg D' M' D' M D M
+Alg D' M' D' M D M'
+Alg L D B D' B' L'
+Alg D M D'
+Alg D M' D'
+Alg D M D' M'
+Alg B' R' B M B' R B
+Alg B' R' B M' B' R B
+Alg D M' D' M' D M' D'
+Alg D' M D' M' D' M D'
+Alg B M D' R D R' M' B'
+Alg B D N D' N' B' M' D'
+Alg B' L' F L B L' F' L
+Alg D L U L' D' L U' L'
+Alg B' L' F L B L' F' L M'
+Alg B R' B' M B R B'
+Alg B R' B' M' B R B'
+Alg L R L' M' L R' L'
+Alg F M' B' M F' M' B
+Alg F' R' F M F' R F
+Alg F' R' F M' F' R F
+Alg N R N' M' N R' N'
+Alg F L' M U M' U' L F'
+Alg F' U' F D F' U F D'
+Alg F M F' D F M' F' M D'
+Alg F D F U' F' U D' F'
+Alg F D F' M F M' D' F'
+Alg F U D M' U' M D' F'
+Alg F U' D F U F' D' F'
+Alg F' N L F N' F' L' F
+Alg U R M' F M F' R' U'
+Alg M
+Alg M'
+Alg F U M U' M' F'
+Alg F M U M' U' F'
+Alg U N M N' M' U'
+Alg N M F M' F' N'
+Alg F U' F' U M' U M U'
+Alg B D' B U B' D B U' B
+Alg B' U B' D' B U' B' D B'
+Alg F U' F' D F U F' D'
+Alg B N F' N' B' N F N'
+Alg D F U' F' D' F U F'
+Alg N F' N' B N F N' B'
+Alg F M' F' M F' N F N'
+Alg F' D N F' R F R' N' F D'
+Alg F' N' B' U' B N B' U B F
+Alg U F R' F N F' N' R F' U'
+Alg U F R' N F N' F' R F' U'
+Alg L' F' M B M' F M B' M' L
+Alg L' M B M' F' M B' M' F L
+Alg F' L' F' N F' U F U' F N' L F
+Alg U B F U F' U M' U' M U' B' U'
+Alg D' N F' R' N R N' F D N'
+Alg N D' F' N R' N' R F N' D

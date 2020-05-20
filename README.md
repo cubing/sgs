@@ -2,6 +2,15 @@ A set of base orders and strong generating sets for some twisty puzzles.
 These go with cubing.js and twsearch.  Still under development.  The
 testtremble.js is just a sample exerciser.
 
+To install:
+
+    npm init
+    npm install cubing
+
+To try it out:
+
+    node testtremble.js 3x3x3
+
 Todo:
 
 * Merge/cancel moves between algorithms

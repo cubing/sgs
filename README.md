@@ -17,6 +17,7 @@ Todo:
 * Merge/cancel moves with respect to commutating moves
 * Make trembling respect canonical sequences.
 * Make trembling include pre/post rotations.
+* Make trembling permit mid-solution rotations.
 * Make trembling consider inverse positions.
 * Make trembling use a beam search approach.
 * Make different sgs for different move sets (i.e., block vs slice for

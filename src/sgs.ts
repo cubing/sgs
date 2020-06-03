@@ -1,0 +1,61 @@
+import { parse, algToString, invert } from "cubing/alg";
+import {
+  Invert,
+  KPuzzleDefinition,
+  KPuzzle,
+  IdentityTransformation,
+} from "cubing/kpuzzle";
+
+export interface SGSCachedData {
+  baseorder: Array<Array<number>>;
+  esgs: Array<any>; // TODO
+}
+
+export function parseSGS(def: KPuzzleDefinition, sgs: string): SGSCachedData {
+  const baseorder = [];
+  const esgs = [];
+  /*
+   *   Build an executable SGS from the set of algorithms we are given.
+   */
+  for (const line of sgs.split("\n")) {
+    if (line.startsWith("SetOrder")) {
+      var f = line.split(" ");
+      for (var j = 2; j < f.length; j++) {
+        baseorder[parseInt(f[j], 10) - 1] = [f[1], j - 2];
+      }
+    } else if (line.startsWith("Alg")) {
+      var salgo = line.substring(4);
+      var algo = parse(salgo);
+      const kpuzzle = new KPuzzle(def);
+      kpuzzle.applyAlg(algo);
+      const st = IdentityTransformation(def);
+      const st2 = kpuzzle.state;
+      var st2i = Invert(def, st2);
+      var loc = 0;
+      while (loc < baseorder.length) {
+        var set = baseorder[loc][0];
+        var ind = baseorder[loc][1];
+        if (
+          st[set].permutation[ind] !== st2[set].permutation[ind] ||
+          st[set].orientation[ind] !== st2[set].orientation[ind]
+        )
+          break;
+        loc++;
+      }
+      var set = baseorder[loc][0];
+      var ind = baseorder[loc][1];
+      if (esgs[loc] === undefined) esgs[loc] = [];
+      if (esgs[loc][st2i[set].permutation[ind]] === undefined)
+        esgs[loc][st2i[set].permutation[ind]] = [];
+      esgs[loc][st2i[set].permutation[ind]][st2i[set].orientation[ind]] = [
+        algToString(invert(algo)),
+        st2i,
+      ];
+    } else if (line.length == 0) {
+      // blank line
+    } else {
+      throw new Error(`Bad line in sgs: ${line}`);
+    }
+  }
+  return { baseorder, esgs };
+}

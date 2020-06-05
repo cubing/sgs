@@ -1,15 +1,47 @@
 A set of base orders and strong generating sets for some twisty puzzles.
-These go with cubing.js and twsearch.  Still under development.  The
-testtremble.js is just a sample exerciser.
-
-To install:
-
-    npm init
-    npm install cubing
+These go with [`cubing.js`](https://github.com/cubing/cubing.js) and [`twsearch`](https://github.com/cubing/twsearch). Still under development.
 
 To try it out:
 
-    node testtremble.js 3x3x3
+    npm install
+    make test # Run default puzzle test
+
+    # Run a particular puzzle
+    npx ts-node --transpile-only ./src/test/benchmark.ts [name of puzzle] [number of tries]
+
+Sample output:
+
+    npx ts-node --transpile-only ./src/test/benchmark.ts 2x2x2
+    Benchmarking 100 random-move scrambles for 2x2x2.
+    ....................................................................................................
+
+    # Solution lengths
+
+    5 | ##                                                           | 1
+    6 | ##                                                           | 1
+    7 | #########                                                    | 4
+    8 | #######                                                      | 3
+    9 | ####################                                         | 9
+    10 | ########################################                     | 18
+    11 | ############################################################ | 27
+    12 | #################################################            | 22
+    13 | ###########################                                  | 12
+    14 | ##                                                           | 1
+    15 | ####                                                         | 2
+
+    # Milliseconds to solve
+
+    22 | ##############                                               | 8
+    23 | ############################################################ | 35
+    24 | ##################################                           | 20
+    25 | ###############                                              | 9
+    26 | ###############                                              | 9
+    27 | #################                                            | 10
+    28 | #######                                                      | 4
+    29 | ##                                                           | 1
+    31 | ###                                                          | 2
+    35 | ##                                                           | 1
+    40 | ##                                                           | 1
 
 Todo:
 

@@ -55,6 +55,17 @@ function badRandomMoves(moves, ksp): State<Puzzle> {
   return indexer.transformAtIndex(indexer.numMoves());
 }
 
+function goodRandomMoves(randgen: Array<Array<string>>, ksp): State<Puzzle> {
+  var scramble = "";
+  for (const a of randgen) {
+    if (a) { // not all elements may be defined
+      scramble = scramble + " " + a[Math.floor(a.length * Math.random())];
+    }
+  }
+  const indexer = new TreeAlgorithmIndexer(ksp, parse(scramble));
+  return indexer.transformAtIndex(indexer.numMoves());  
+}
+
 export class TrembleSolver {
   private puzzle: KPuzzleDefinition;
   private ksp;
@@ -62,6 +73,7 @@ export class TrembleSolver {
 
   private baseorder: Array<any>; // TODO
   private esgs: Array<any>; // TODO
+  private randgen: Array<Array<string>>;
 
   private moves;
   private movest;
@@ -72,6 +84,7 @@ export class TrembleSolver {
 
     this.baseorder = sgs.baseorder;
     this.esgs = sgs.esgs;
+    this.randgen = sgs.randgen;
 
     const movesInfo = calculateMoves(this.def, this.ksp);
     this.moves = movesInfo.moves;
@@ -80,6 +93,10 @@ export class TrembleSolver {
 
   public badRandomMoves(): State<Puzzle> {
     return badRandomMoves(this.moves, this.ksp);
+  }
+
+  public goodRandomMoves(): State<Puzzle> {
+    return goodRandomMoves(this.randgen, this.ksp);
   }
 
   public async solve(

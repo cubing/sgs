@@ -53,7 +53,7 @@ async function benchmark(puzzleName: string, n: number) {
 
   console.log(`Benchmarking ${n} random-move scrambles for ${puzzleName}.`)
   for (let i = 0; i < n; i++) {
-    const state = solver.badRandomMoves();
+    const state = solver.goodRandomMoves();
     var t0 = performance.now();
     const seq = await solver.solve(state);
     const len = seq.nestedUnits.length;

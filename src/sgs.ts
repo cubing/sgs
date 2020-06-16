@@ -9,11 +9,13 @@ import {
 export interface SGSCachedData {
   baseorder: Array<Array<number>>;
   esgs: Array<any>; // TODO
+  randgen: Array<Array<string>>;
 }
 
 export function parseSGS(def: KPuzzleDefinition, sgs: string): SGSCachedData {
   const baseorder = [];
   const esgs = [];
+  const randgen = [];
   /*
    *   Build an executable SGS from the set of algorithms we are given.
    */
@@ -51,11 +53,16 @@ export function parseSGS(def: KPuzzleDefinition, sgs: string): SGSCachedData {
         algToString(invert(algo)),
         st2i,
       ];
+      // this empty string as the base element is important; otherwise
+      // we won't generate truly random states.  It represents the case
+      // where the cubie is already in the correct place.
+      if (randgen[loc] === undefined) randgen[loc] = [""];
+      randgen[loc].push(salgo);
     } else if (line.length == 0) {
       // blank line
     } else {
       throw new Error(`Bad line in sgs: ${line}`);
     }
   }
-  return { baseorder, esgs };
+  return { baseorder, esgs, randgen };
 }

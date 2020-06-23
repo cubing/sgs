@@ -1,19 +1,18 @@
-import { coalesceBaseMoves, parse, Sequence } from "cubing/alg";
-import { KSolvePuzzle } from "cubing/twisty";
+import { parse, Sequence } from "cubing/alg";
 import {
   Invert,
   KPuzzleDefinition,
-  Order,
   Transformation,
   CanonicalSequenceIterator,
   Canonicalize,
   SearchSequence,
+  IdentityTransformation,
 } from "cubing/kpuzzle";
 import { SGSCachedData } from "./sgs";
 
 const DEFAULT_TREMBLE_COUNT = 10000;
 
-function goodRandomMoves(canon: Canonicalize, randgen: Array<Array<string>>, ksp): Transformation {
+function goodRandomMoves(canon: Canonicalize, randgen: Array<Array<string>>): Transformation {
   var scramble = "";
   for (const a of randgen) {
     if (a) { // not all elements may be defined
@@ -26,7 +25,6 @@ function goodRandomMoves(canon: Canonicalize, randgen: Array<Array<string>>, ksp
 export class TrembleSolver {
   private puzzle: KPuzzleDefinition;
   private canon: Canonicalize;
-  private ksp;
   private st;
 
   private baseorder: Array<any>; // TODO
@@ -34,8 +32,7 @@ export class TrembleSolver {
   private randgen: Array<Array<string>>;
 
   constructor(private def: KPuzzleDefinition, sgs: SGSCachedData) {
-    this.ksp = new KSolvePuzzle(this.def);
-    this.st = this.ksp.identity();
+    this.st = IdentityTransformation(def);
     this.baseorder = sgs.baseorder;
     this.esgs = sgs.esgs;
     this.randgen = sgs.randgen;
@@ -43,7 +40,7 @@ export class TrembleSolver {
   }
 
   public goodRandomMoves(): Transformation {
-    return goodRandomMoves(this.canon, this.randgen, this.ksp);
+    return goodRandomMoves(this.canon, this.randgen);
   }
 
   public async solve(

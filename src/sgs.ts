@@ -5,8 +5,6 @@ import {
   KPuzzleDefinition,
   KPuzzle,
   IdentityTransformation,
-  SearchSequence,
-  EquivalentStates,
 } from "cubing/kpuzzle";
 
 export interface SGSCachedData {

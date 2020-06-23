@@ -1,9 +1,12 @@
 import { parse, algToString, invert } from "cubing/alg";
 import {
+  Canonicalize,
   Invert,
   KPuzzleDefinition,
   KPuzzle,
   IdentityTransformation,
+  SearchSequence,
+  EquivalentStates,
 } from "cubing/kpuzzle";
 
 export interface SGSCachedData {
@@ -16,6 +19,7 @@ export function parseSGS(def: KPuzzleDefinition, sgs: string): SGSCachedData {
   const baseorder = [];
   const esgs = [];
   const randgen = [];
+  const canon = new Canonicalize(def);
   /*
    *   Build an executable SGS from the set of algorithms we are given.
    */
@@ -49,9 +53,10 @@ export function parseSGS(def: KPuzzleDefinition, sgs: string): SGSCachedData {
       if (esgs[loc] === undefined) esgs[loc] = [];
       if (esgs[loc][st2i[set].permutation[ind]] === undefined)
         esgs[loc][st2i[set].permutation[ind]] = [];
+      const algoi = invert(algo);
       esgs[loc][st2i[set].permutation[ind]][st2i[set].orientation[ind]] = [
-        algToString(invert(algo)),
-        st2i,
+        algToString(algoi),
+        canon.sequenceToSearchSequence(algoi),
       ];
       // this empty string as the base element is important; otherwise
       // we won't generate truly random states.  It represents the case

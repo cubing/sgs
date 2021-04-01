@@ -10,7 +10,7 @@ import {
 } from "cubing/kpuzzle";
 import { SGSCachedData } from "./sgs";
 
-const DEFAULT_TREMBLE_COUNT = 10000;
+const DEFAULT_TREMBLE_COUNT = 840000;
 
 function goodRandomMoves(canon: Canonicalize, randgen: Array<Array<string>>): Transformation {
   var scramble = "";
@@ -56,6 +56,23 @@ export class TrembleSolver {
       if (ss.moveseq.length < best) {
         best = ss.moveseq.length;
         bestAlg = ss;
+      }
+    }
+    return parse(bestAlg.getSequenceAsString());
+  }
+  public async solveForever (
+    state: Transformation,
+  ): Promise<Sequence> {
+    let bestAlg: SearchSequence;;
+    var best = 1000000;
+    const csg = new CanonicalSequenceIterator(this.canon, state).generator();
+    while (true) {
+      const ss = csg.next().value.clone();
+      this.sgsPhaseSolve(ss);
+      if (ss.moveseq.length < best) {
+        best = ss.moveseq.length;
+        bestAlg = ss;
+        console.log("Length " + best + " alg " + ss.getSequenceAsString());
       }
     }
     return parse(bestAlg.getSequenceAsString());

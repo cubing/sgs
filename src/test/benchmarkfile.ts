@@ -1,5 +1,6 @@
 import * as histogram from "ascii-histogram";
 import { algToString } from "cubing/alg";
+import { parse } from "cubing/kpuzzle";
 import {
   getPuzzleGeometryByName,
   PuzzleGeometry,
@@ -37,12 +38,16 @@ function getPuzzleGeometry(puzzleName): PuzzleGeometry {
 
 function readSGSFile(puzname): string {
   const sgsname = puzname.replace(/ /g, "_").replace(/'/g, "");
-  return readFileSync(__dirname + "/puzzles/" + sgsname + ".sgs", "utf8");
+  return readFileSync(sgsname + ".sgs", "utf8");
+}
+
+function readKSolveFile(prefix): string {
+  return readFileSync(prefix + ".tws", "utf8");
 }
 
 async function benchmark(puzzleName: string, n: number) {
-  const pg = getPuzzleGeometry(puzzleName);
-  const def = pg.writekpuzzle();
+  const ks = readKSolveFile(puzzleName);
+  const def = parse(ks);
 
   const sgs = parseSGS(def, readSGSFile(puzzleName));
   const solver = new TrembleSolver(def, sgs);

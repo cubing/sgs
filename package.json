@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "ascii-histogram": "^1.2.1",
-    "cubing": "^0.10.4"
+    "cubing": "^0.38.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.9",
